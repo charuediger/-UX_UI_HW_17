@@ -1,0 +1,22 @@
+#navBar {
+    height: 88px;
+    color: #FFFFFF;
+    font-size: 30px;
+    background-color: #074b8c;
+}
+#navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #074b8c;
+    justify-content: space-around;
+}    
+.logo {
+    float: inline-start;
+}
+.header {
+    font-size: 60px;
+    color: #074b8c;
+    text-align: center;
+}
+
