@@ -1,22 +1,40 @@
-#navBar {
-    height: 88px;
-    color: #FFFFFF;
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
     font-size: 30px;
+    color: white;
     background-color: #074b8c;
 }
-#navigation {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    background-color: #074b8c;
-    justify-content: space-around;
-}    
-.logo {
-    float: inline-start;
+nav {
+    width: 73%;
+    padding: 1%;
 }
-.header {
+.h1 {
     font-size: 60px;
     color: #074b8c;
     text-align: center;
 }
-
+ul {
+    width: 50%;
+    margin-left: auto;
+    list-style: none;
+}
+.logo {
+    text-align: center;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #417BAB;
+}
+ul.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5%;
+}
