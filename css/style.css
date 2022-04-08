@@ -1,40 +1,49 @@
 .inline-block {
     display: inline-block;
+    padding: 15px;
     vertical-align: top;
+}
+nav {
+    /*padding: 1%;*/
     font-size: 30px;
     color: white;
     background-color: #074b8c;
-}
-nav {
-    width: 73%;
-    padding: 1%;
-}
-.h1 {
-    font-size: 60px;
-    color: #074b8c;
-    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
 }
 ul {
-    width: 50%;
-    margin-left: auto;
+    text-align: right;
+    /*margin-left: auto;*/
     list-style: none;
+    padding: 4%;
 }
-.logo {
-    text-align: center;
+.hotlabs {
+    float: right;
+    color: #074b8c;
+    font-size: 60px;
+    font-family: 'Inria Sans', sans-serif;
 }
 .heroImg {
+    background-size: cover;
+    background-image: url("../images/Hero\ Image.png");
+    background-repeat: no-repeat;
     height: 600px;
-    padding: 25px;
 }
 .content {
+    /*float: right;*/
+    text-align: right;
+    position: absolute;
     width: 500px;
     margin: 0 auto;
+    color: white;
+    font-size: 34px;
+    font-family: 'Inria Sans', sans-serif;
 }
 footer {
     background-color: #417BAB;
+    /*padding: 1%;*/
+    color: white;
+    font-size: 24px;   
+    font-family: 'Noto Sans', sans-serif;
 }
-ul.inline-block {
-    display: inline-block;
-    vertical-align: top;
-    padding: 5%;
-}
+
+
